@@ -9,11 +9,11 @@ This project utilizes ILIAS' SOAP Webservice interface. Though not aiming for bu
 - only a very limited amount of [API concepts](https://test54.ilias.de/webservice/soap/server.php) is supported
 
 ## Installation
-- `pip install zeep` -- see [python-zeep](https://github.com/mvantellingen/python-zeep#installation)
+- `pip install zeep` (see [python-zeep](https://github.com/mvantellingen/python-zeep#installation))
 
 ## Configuration
 - change `ILIAS_CONFIGURATION_FILENAME` to your personal configuration file (see [example_ilias-config.json](./example_ilias-config.json))
-- provide your personal tasks file(s) -- see [example_tasks.json](./example_tasks.json)
+- provide your personal tasks file(s) (see [example_tasks.json](./example_tasks.json))
 
 ## Run
 - `process_tasks.py <TASK_FILES>`
