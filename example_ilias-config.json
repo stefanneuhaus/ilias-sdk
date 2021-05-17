@@ -1,0 +1,8 @@
+{
+  "wsdlUrl": "https://<ILIAS_SERVER_BASE_URL>/webservice/soap/server.php?wsdl",
+  "clientId": "my-client-id",
+  "credentials": {
+    "username": "my-username",
+    "password": "s3cr3t"
+  }
+}
