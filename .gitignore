@@ -1,6 +1,8 @@
 .idea/
 *.iml
 
+ilias_sdk.egg-info/
+build/
 __pycache__/
 venv/
 

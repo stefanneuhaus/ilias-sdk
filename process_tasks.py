@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
+import os
 import sys
 
 from ilias_service import IliasService
 
-ILIAS_CONFIGURATION_FILENAME = 'example_ilias-config.json'
+ILIAS_CONFIGURATION_FILENAME = os.getenv("ILIAS_CONFIGURATION_FILENAME")
 
+if ILIAS_CONFIGURATION_FILENAME == None:
+    print("ERROR: environment variable 'ILIAS_CONFIGURATION_FILENAME' is not set.")
+    exit(2)
 if len(sys.argv) == 1:
     print("ERROR: no tasks files given.")
     print("  Usage: %s <TASKS_FILES>" % sys.argv[0])

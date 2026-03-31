@@ -1,0 +1,10 @@
+[project]
+name = "ilias-sdk"
+version = "0.1.0"
+description = "Poor-man's ILIAS SDK"
+dependencies = [
+    "zeep"
+]
+
+[tool.setuptools]
+py-modules = ["process_tasks"]

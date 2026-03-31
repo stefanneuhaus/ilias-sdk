@@ -3,7 +3,7 @@ from xml.sax.saxutils import escape
 
 
 class IliasFile:
-    # see https://fossies.org/linux/ILIAS/xml/ilias_file_3_8.dtd
+    # see https://test9.ilias.de/xml/ilias_file_3_8.dtd
 
     def __init__(self, filename, title=None, description=None, content=None, versions=()):
         self.filename = filename
